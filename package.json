@@ -1,0 +1,30 @@
+{
+  "name": "speakdotdev",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.2.7",
+    "@nexus/schema": "^0.18.0",
+    "@prisma/client": "^2.11.0",
+    "apollo-server-micro": "^2.19.0",
+    "autoprefixer": "^10.0.2",
+    "formik": "^2.2.5",
+    "graphql": "^15.4.0",
+    "graphql-iso-date": "^3.6.1",
+    "next": "10.0.2",
+    "postcss": "^8.1.8",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tailwindcss": "^2.0.1",
+    "yup": "^0.30.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.11.0",
+    "@types/react": "^16.14.0"
+  }
+}
